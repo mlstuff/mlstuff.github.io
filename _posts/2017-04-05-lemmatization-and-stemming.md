@@ -5,6 +5,8 @@ date: 2017-04-05 18:48
 categories: nlp
 ---
 
+# Lemmatization and Stemming
+
 Once the tokenization is done, we have to normalize & stem them.
 
 ### Normalization

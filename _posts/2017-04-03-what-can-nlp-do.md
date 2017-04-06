@@ -5,6 +5,8 @@ date: 2017-04-03 20:46
 categories: nlp
 ---
 
+# Some uses of NLP
+
 In this post, we will see about the major uses of Natural Language Processing (NLP).
 
 1. **Question Answering** : Answer the questions posed by humans in natural language.

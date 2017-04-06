@@ -5,6 +5,8 @@ date: 2017-04-05 17:57
 categories: nlp
 ---
 
+# Word Tokenization
+
 ### Text Normalization
 
 Every NLP task needs to text normalization. This involves 3 steps:
