@@ -1,0 +1,11 @@
+
+
+url: http://mlstuff.github.io
+name: ML Stuff
+email: johndoe@example.com
+author: MinMaxer
+google_analytics_key: ''
+
+
+# https://github.com/jekyll/jekyll/issues/2938
+exclude: [vendor]
