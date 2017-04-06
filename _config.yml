@@ -4,7 +4,9 @@ url: http://mlstuff.github.io
 name: ML Stuff
 email: johndoe@example.com
 author: MinMaxer
-google_analytics_key: ''
+google_analytics_key: 'UA-96921402-1'
+
+permalink:   /:categories/:title
 
 
 # https://github.com/jekyll/jekyll/issues/2938
