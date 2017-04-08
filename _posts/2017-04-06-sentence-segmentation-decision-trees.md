@@ -10,7 +10,7 @@ categories: nlp
     - Few other options we can use are handwritten rules, regular expressions & machine learning algorithms.
 - Decisition Tree is the simplest form of it. We could draw a decision tree somethine like this:
     
-![You can see this!!?](http://img.ctrlv.in/img/17/04/05/58e4fd15471b7.png | width=200)
+![You can see this!!?](/images/sent_segm_dt.png)
 
 - A Decisition tree is just an if-then-else statement.
 - The interesting research in a decision tree is choosing the features.
