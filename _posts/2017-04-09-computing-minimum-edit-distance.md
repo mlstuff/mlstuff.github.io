@@ -14,3 +14,4 @@ categories: nlp
     For each _i_ in _X_:
         For each _j_ in _Y_:
             D(i,j) = min( D(i-1,j) + 1 , D(1,j-1) + 1 , D(i-1,j-1) + 2 )
+
