@@ -18,12 +18,12 @@ Let's start by estimating bi-gram probabilities
 - This simply means, Of all the times we saw _wi-1_, how many times _wi-1_ & _wi_ occur together.
 
 - For example, consider the sentences,
-    - <s>I am Sam</s>
-    - <s>Sam I am</s>
-    - <s>I do not like green eggs and ham</s>
+    - <sent>I am Sam</sent>
+    - <sent>Sam I am</sent>
+    - <sent>I do not like green eggs and ham</sent>
 
-    P(I|<s>)    = count(<s>,I) / count(<s>) 
-                = occurrence of _I_ followed by _<s>_ **by** occurrence of _<s>_ 
+    P(I|<sent>)    = count(<sent>,I) / count(<sent>) 
+                = occurrence of _I_ followed by _<sent>_ **by** occurrence of _<sent>_ 
                 = 2/3
                 = 0.67
 
@@ -31,7 +31,7 @@ Let's start by estimating bi-gram probabilities
 
 - Now we have bi-gram probabilities of words. We can calculate the bi-gram probability of sentence like this:
 
-    P(<s>I am Sam</s>) = P(I|<s>) * P(am|I) * P(Sam|am) * P(</s>|Sam)
+    P(<sent>I am Sam</sent>) = P(I|<sent>) * P(am|I) * P(Sam|am) * P(</sent>|Sam)
 
 
 ## Practical Issues
