@@ -18,12 +18,12 @@ Let's start by estimating bi-gram probabilities
 - This simply means, Of all the times we saw _wi-1_, how many times _wi-1_ & _wi_ occur together.
 
 - For example, consider the sentences,
-    - <sent>I am Sam</sent>
-    - <sent>Sam I am</sent>
-    - <sent>I do not like green eggs and ham</sent>
+    - -start-I am Sam-end-
+    - -start-Sam I am-end-
+    - -start-I do not like green eggs and ham-end-
 
-    P(I|<sent>)    = count(<sent>,I) / count(<sent>) 
-                = occurrence of _I_ followed by _<sent>_ **by** occurrence of _<sent>_ 
+    P(I|-start-)    = count(-start-,I) / count(-start-) 
+                = occurrence of _I_ followed by _-start-_ **by** occurrence of _-start-_ 
                 = 2/3
                 = 0.67
 
@@ -31,7 +31,7 @@ Let's start by estimating bi-gram probabilities
 
 - Now we have bi-gram probabilities of words. We can calculate the bi-gram probability of sentence like this:
 
-    P(<sent>I am Sam</sent>) = P(I|<sent>) * P(am|I) * P(Sam|am) * P(</sent>|Sam)
+    P(-start-I am Sam-end-) = P(I|-start-) * P(am|I) * P(Sam|am) * P(-end-|Sam)
 
 
 ## Practical Issues
